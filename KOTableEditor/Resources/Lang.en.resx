@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmColumnEditor_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="frmColumnEditor_Button_RemoveChecked" xml:space="preserve">
+    <value>Remove checked</value>
+  </data>
+  <data name="frmColumnEditor_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="frmColumnEditor_GroupBox_EditColumn" xml:space="preserve">
+    <value>Edit Column</value>
+  </data>
+  <data name="frmColumnEditor_GroupBox_NewColumn" xml:space="preserve">
+    <value>New Column</value>
+  </data>
+  <data name="frmColumnEditor_Label_ChangeDataType" xml:space="preserve">
+    <value>New data type :</value>
+  </data>
+  <data name="frmColumnEditor_Label_DataType" xml:space="preserve">
+    <value>Data type :</value>
+  </data>
+  <data name="frmColumnEditor_Label_DefaultValue" xml:space="preserve">
+    <value>Default value :</value>
+  </data>
+  <data name="frmColumnEditor_Title" xml:space="preserve">
+    <value>Editing columns of table : {0}</value>
+  </data>
+  <data name="frmExportAsSQL_Button_CheckAllColumns" xml:space="preserve">
+    <value>Check all columns</value>
+  </data>
+  <data name="frmExportAsSQL_Button_Export" xml:space="preserve">
+    <value>Export selected columns as insert query</value>
+  </data>
+  <data name="frmExportAsSQL_Button_UncheckAllColumns" xml:space="preserve">
+    <value>Uncheck all columns</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_DropPrevious" xml:space="preserve">
+    <value>Drop if any previous table with same name exists (DROP TABLE)</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_IncludeCreate" xml:space="preserve">
+    <value>Export CREATE TABLE query of the table</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_Truncate" xml:space="preserve">
+    <value>Truncate target table (TRUNCATE)</value>
+  </data>
+  <data name="frmExportAsSQL_Filter" xml:space="preserve">
+    <value>Structured query language files (*.sql)|*.sql</value>
+  </data>
+  <data name="frmExportAsSQL_GroupBox_TableOptions" xml:space="preserve">
+    <value>Table options</value>
+  </data>
+  <data name="frmExportAsSQL_Label_ColumnNames" xml:space="preserve">
+    <value>Column names</value>
+  </data>
+  <data name="frmExportAsSQL_Label_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="frmExportAsSQL_Label_TableName" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="frmExportAsSQL_TextBox_Description" xml:space="preserve">
+    <value>This mini-tool allows you to export table files as SQL queries, so you can import any kind of data from them. Select the columns that you need, then name them(optional). Specify a table name(that will be used for generating INSERT INTO and CREATE TABLE target table names). Then, just press 'export' button.</value>
+  </data>
+  <data name="frmExportAsSQL_Title" xml:space="preserve">
+    <value>Export table as SQL Query : {0}</value>
+  </data>
+  <data name="frmFindAndReplace_Button_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmFindAndReplace_Button_ReplaceAll" xml:space="preserve">
+    <value>Replace all</value>
+  </data>
+  <data name="frmFindAndReplace_Button_ReplaceNext" xml:space="preserve">
+    <value>Replace next </value>
+  </data>
+  <data name="frmFindAndReplace_CheckBox_CaseSensitive" xml:space="preserve">
+    <value>Case sensitive</value>
+  </data>
+  <data name="frmFindAndReplace_CheckBox_MatchWhole" xml:space="preserve">
+    <value>Match whole</value>
+  </data>
+  <data name="frmFindAndReplace_Label_FindWhat" xml:space="preserve">
+    <value>Find what:</value>
+  </data>
+  <data name="frmFindAndReplace_Label_ReplaceWith" xml:space="preserve">
+    <value>Replace with:</value>
+  </data>
+  <data name="frmFindAndReplace_Title" xml:space="preserve">
+    <value>Find and Replace</value>
+  </data>
+  <data name="frmLoading_PP_Description" xml:space="preserve">
+    <value>loading main interface, be patient</value>
+  </data>
+  <data name="frmLoading_PP_Title" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="frmSaveAs_Button_SaveAs" xml:space="preserve">
+    <value>Select destination..</value>
+  </data>
+  <data name="frmSaveAs_Label_Description" xml:space="preserve">
+    <value>Method description</value>
+  </data>
+  <data name="frmSaveAs_Label_Method" xml:space="preserve">
+    <value>Encryption method :</value>
+  </data>
+  <data name="frmSaveAs_Title" xml:space="preserve">
+    <value>Save as..</value>
+  </data>
+  <data name="mainFrm_LanguageLabel" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="mainFrm_Menu_About" xml:space="preserve">
+    <value>About..</value>
+  </data>
+  <data name="mainFrm_Menu_About_Author" xml:space="preserve">
+    <value>Developed by &lt;href=http://insomniacoder.blogspot.com&gt;PENTAGRAM&lt;/href&gt;</value>
+  </data>
+  <data name="mainFrm_Menu_About_Copyright" xml:space="preserve">
+    <value>(C) 2017</value>
+  </data>
+  <data name="mainFrm_Menu_About_Program" xml:space="preserve">
+    <value>Knight OnLine table editor</value>
+  </data>
+  <data name="mainFrm_Menu_About_Share" xml:space="preserve">
+    <value>This program is only shared for KODevelopers Knight OnLine Development Platform.</value>
+  </data>
+  <data name="mainFrm_Menu_About_Version" xml:space="preserve">
+    <value>Version 1.3</value>
+  </data>
+  <data name="mainFrm_Menu_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_ColumnEditor" xml:space="preserve">
+    <value>Column editor</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_NewRow" xml:space="preserve">
+    <value>New row</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowCopy" xml:space="preserve">
+    <value>Row Copy</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowDelete" xml:space="preserve">
+    <value>Row Delete</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowPaste" xml:space="preserve">
+    <value>Row Paste</value>
+  </data>
+  <data name="mainFrm_Menu_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="mainFrm_Menu_File_BulkConvert" xml:space="preserve">
+    <value>Bulk convert</value>
+  </data>
+  <data name="mainFrm_Menu_File_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="mainFrm_Menu_File_Open" xml:space="preserve">
+    <value>Open table</value>
+  </data>
+  <data name="mainFrm_Menu_File_Save" xml:space="preserve">
+    <value>Save table</value>
+  </data>
+  <data name="mainFrm_Menu_File_SaveAs" xml:space="preserve">
+    <value>Save table as..</value>
+  </data>
+  <data name="mainFrm_Menu_File_SqlExport" xml:space="preserve">
+    <value>SQL Export</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo" xml:space="preserve">
+    <value>File Information</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_ColumnCount" xml:space="preserve">
+    <value>Column count</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Created" xml:space="preserve">
+    <value>Created at</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Encryption" xml:space="preserve">
+    <value>Encryption method</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_LastAccess" xml:space="preserve">
+    <value>Last access time</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_LastModify" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_RowCount" xml:space="preserve">
+    <value>Row count</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="mainFrm_Menu_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="mainFrm_Menu_Search_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="mainFrm_Menu_Search_FindAndReplace" xml:space="preserve">
+    <value>Find &amp; Replace</value>
+  </data>
+  <data name="mainFrm_Title" xml:space="preserve">
+    <value>Knight OnLine Table Editor :: PENTAGRAM, 2017, KODEVELOPERS EDITION</value>
+  </data>
+  <data name="mainFrm_User" xml:space="preserve">
+    <value>Logged in as : {0}</value>
+  </data>
+  <data name="mainFrm_Version" xml:space="preserve">
+    <value>Version : 1.3</value>
+  </data>
+  <data name="Message_CopyError" xml:space="preserve">
+    <value>There was error(s) during copy operation.\nEither column count does not match with source table, or data type mismatch.\nCopied {0} out of {1} row(s).</value>
+    <comment>There was error(s) during copy operation.\nEither column count does not match with source table, or data type mismatch.\nCopied {0} out of {1} row(s).</comment>
+  </data>
+  <data name="Message_DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to remove all selected row(s)? (Count : {0})</value>
+  </data>
+  <data name="Message_DeleteSuccess" xml:space="preserve">
+    <value>{0} row(s) removed.</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>Done.</value>
+  </data>
+  <data name="Message_ExportComplete" xml:space="preserve">
+    <value>Export complete.</value>
+  </data>
+  <data name="Message_FileEncryptionError" xml:space="preserve">
+    <value>Encryption error : \n\nThe file {0} could not be opened.\nEither the file is corrupt, or using unknown encryption method / keys.</value>
+  </data>
+  <data name="Message_FileNotOpen" xml:space="preserve">
+    <value>Internal error : table file is not open</value>
+  </data>
+  <data name="Message_FileOpenError" xml:space="preserve">
+    <value>File open error :\nThe specified table {0} does not exist.</value>
+  </data>
+  <data name="Message_NMatchesReplaced" xml:space="preserve">
+    <value>{0} matching cell(s) replaced</value>
+  </data>
+  <data name="Message_NoCheckedItems" xml:space="preserve">
+    <value>There are no checked item(s)!</value>
+  </data>
+  <data name="Message_NoFileOpen" xml:space="preserve">
+    <value>Currently no file is open.</value>
+  </data>
+  <data name="Message_NoMoreMatches" xml:space="preserve">
+    <value>No more matches found.</value>
+  </data>
+  <data name="Message_NoRowsSelected" xml:space="preserve">
+    <value>No row(s) selected.</value>
+  </data>
+  <data name="Message_NRowsAddSuccess" xml:space="preserve">
+    <value>{0} row(s) are successfully added.</value>
+  </data>
+  <data name="Message_NRowsCopied" xml:space="preserve">
+    <value>{0} row(s) copied.</value>
+  </data>
+  <data name="Message_PasteError" xml:space="preserve">
+    <value>Paste error.</value>
+  </data>
+  <data name="Message_PasteNoRows" xml:space="preserve">
+    <value>Paste operation failed.\nNo row(s) were copied before.</value>
+  </data>
+  <data name="Message_PleaseWait" xml:space="preserve">
+    <value>Please wait..</value>
+  </data>
+  <data name="Message_SaveConfirmChanges" xml:space="preserve">
+    <value>You have made some changes over the table.\nDo you want to commit these changes?\n({0})</value>
+  </data>
+  <data name="Message_SaveSuccess" xml:space="preserve">
+    <value>Table saved successfully.</value>
+  </data>
+  <data name="Message_Searching" xml:space="preserve">
+    <value>Searching..</value>
+  </data>
+  <data name="Message_SelectPageFirst" xml:space="preserve">
+    <value>Please select a page first.</value>
+  </data>
+  <data name="Title_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+</root>

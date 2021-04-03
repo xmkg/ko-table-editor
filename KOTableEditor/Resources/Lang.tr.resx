@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmColumnEditor_Button_Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="frmColumnEditor_Button_RemoveChecked" xml:space="preserve">
+    <value>Seçili olanları sil</value>
+  </data>
+  <data name="frmColumnEditor_Button_Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="frmColumnEditor_GroupBox_EditColumn" xml:space="preserve">
+    <value>Sütunu düzenle</value>
+  </data>
+  <data name="frmColumnEditor_GroupBox_NewColumn" xml:space="preserve">
+    <value>Yeni sütun</value>
+  </data>
+  <data name="frmColumnEditor_Label_ChangeDataType" xml:space="preserve">
+    <value>Yeni veri tipi :</value>
+  </data>
+  <data name="frmColumnEditor_Label_DataType" xml:space="preserve">
+    <value>Veri tipi :</value>
+  </data>
+  <data name="frmColumnEditor_Label_DefaultValue" xml:space="preserve">
+    <value>Varsayılan değer :</value>
+  </data>
+  <data name="frmColumnEditor_Title" xml:space="preserve">
+    <value>Tablo sütun düzenleme : {0}</value>
+  </data>
+  <data name="frmExportAsSQL_Button_CheckAllColumns" xml:space="preserve">
+    <value>Tüm sütunları seç</value>
+  </data>
+  <data name="frmExportAsSQL_Button_Export" xml:space="preserve">
+    <value>Seçili olan sütunları SQL sorgusu olarak dışa aktar</value>
+  </data>
+  <data name="frmExportAsSQL_Button_UncheckAllColumns" xml:space="preserve">
+    <value>Sütunların seçimini kaldır</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_DropPrevious" xml:space="preserve">
+    <value>Eğer daha önce bu isimde bir tablo varsa, o tabloyu sil (DROP TABLE)</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_IncludeCreate" xml:space="preserve">
+    <value>Tablonun CREATE TABLE kodlarını da dışa aktar</value>
+  </data>
+  <data name="frmExportAsSQL_CheckBox_Truncate" xml:space="preserve">
+    <value>Hedef tabloyu temizle (TRUNCATE)</value>
+  </data>
+  <data name="frmExportAsSQL_Filter" xml:space="preserve">
+    <value>Yapılandırılmış sorgu dili dosyaları (*.sql)|*.sql</value>
+  </data>
+  <data name="frmExportAsSQL_GroupBox_TableOptions" xml:space="preserve">
+    <value>Tablo ayarları</value>
+  </data>
+  <data name="frmExportAsSQL_Label_ColumnNames" xml:space="preserve">
+    <value>Sütun adlandırmaları</value>
+  </data>
+  <data name="frmExportAsSQL_Label_Columns" xml:space="preserve">
+    <value>Sütunlar</value>
+  </data>
+  <data name="frmExportAsSQL_Label_TableName" xml:space="preserve">
+    <value>Tablo adı</value>
+  </data>
+  <data name="frmExportAsSQL_TextBox_Description" xml:space="preserve">
+    <value>Bu ufak araç tablo dosyalarını SQL sorguları olarak dışarı aktarmanıza olanak tanır, bu şekilde tablolarda mevcut olan verileri veritabanınıza aktarabilirsiniz.İhtiyacınız olan sütünları seçin ve sütunları isimlendirin(opsiyonel). Veritabanınızdaki hedef tablonun adını belirtin (INSERT INTO ve CREATE TABLE komutlarına eklenecektir. Son olarak, 'dışa aktar' butonuna tıklayın.</value>
+  </data>
+  <data name="frmExportAsSQL_Title" xml:space="preserve">
+    <value>Tabloyu SQL sorgusu olarak dışa aktar : {0}</value>
+  </data>
+  <data name="frmFindAndReplace_Button_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="frmFindAndReplace_Button_ReplaceAll" xml:space="preserve">
+    <value>Tümünü değiştir</value>
+  </data>
+  <data name="frmFindAndReplace_Button_ReplaceNext" xml:space="preserve">
+    <value>Sonrakini değiştir</value>
+  </data>
+  <data name="frmFindAndReplace_CheckBox_CaseSensitive" xml:space="preserve">
+    <value>Harfe duyarlı</value>
+  </data>
+  <data name="frmFindAndReplace_CheckBox_MatchWhole" xml:space="preserve">
+    <value>Tamamını eşleştir</value>
+  </data>
+  <data name="frmFindAndReplace_Label_FindWhat" xml:space="preserve">
+    <value>Aranacak kelime:</value>
+  </data>
+  <data name="frmFindAndReplace_Label_ReplaceWith" xml:space="preserve">
+    <value>Şununla değiştir:</value>
+  </data>
+  <data name="frmFindAndReplace_Title" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="frmLoading_PP_Description" xml:space="preserve">
+    <value>ana arayüz yükleniyor, lütfen sabırlı olun</value>
+  </data>
+  <data name="frmLoading_PP_Title" xml:space="preserve">
+    <value>Lütfen Bekleyin</value>
+  </data>
+  <data name="frmSaveAs_Button_SaveAs" xml:space="preserve">
+    <value>Hedef seç..</value>
+  </data>
+  <data name="frmSaveAs_Label_Description" xml:space="preserve">
+    <value>Method açıklaması</value>
+  </data>
+  <data name="frmSaveAs_Label_Method" xml:space="preserve">
+    <value>Şifreleme methodu :</value>
+  </data>
+  <data name="frmSaveAs_Title" xml:space="preserve">
+    <value>Farklı kaydet..</value>
+  </data>
+  <data name="mainFrm_LanguageLabel" xml:space="preserve">
+    <value>Lisan</value>
+  </data>
+  <data name="mainFrm_Menu_About" xml:space="preserve">
+    <value>Hakkında..</value>
+  </data>
+  <data name="mainFrm_Menu_About_Author" xml:space="preserve">
+    <value>Geliştirici: &lt;href=http://insomniacoder.blogspot.com&gt;PENTAGRAM&lt;/href&gt;</value>
+  </data>
+  <data name="mainFrm_Menu_About_Copyright" xml:space="preserve">
+    <value>(C) 2017</value>
+  </data>
+  <data name="mainFrm_Menu_About_Program" xml:space="preserve">
+    <value>Knight OnLine tablo editor</value>
+  </data>
+  <data name="mainFrm_Menu_About_Share" xml:space="preserve">
+    <value>Bu program yalnızca KODevelopers Knight OnLine Geliştirme Platformu için paylaşılmıştır.</value>
+  </data>
+  <data name="mainFrm_Menu_About_Version" xml:space="preserve">
+    <value>Versiyon 1.3</value>
+  </data>
+  <data name="mainFrm_Menu_Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_ColumnEditor" xml:space="preserve">
+    <value>Sütun düzenleyici</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_NewRow" xml:space="preserve">
+    <value>Yeni satır</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowCopy" xml:space="preserve">
+    <value>Satır kopyala</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowDelete" xml:space="preserve">
+    <value>Satır sil</value>
+  </data>
+  <data name="mainFrm_Menu_Edit_RowPaste" xml:space="preserve">
+    <value>Satır yapıştır</value>
+  </data>
+  <data name="mainFrm_Menu_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="mainFrm_Menu_File_BulkConvert" xml:space="preserve">
+    <value>Toplu tablo dönüştür</value>
+  </data>
+  <data name="mainFrm_Menu_File_Logout" xml:space="preserve">
+    <value>Çıkış yap</value>
+  </data>
+  <data name="mainFrm_Menu_File_Open" xml:space="preserve">
+    <value>Tablo aç</value>
+  </data>
+  <data name="mainFrm_Menu_File_Save" xml:space="preserve">
+    <value>Tablo kaydet</value>
+  </data>
+  <data name="mainFrm_Menu_File_SaveAs" xml:space="preserve">
+    <value>Tabloyu farklı kaydet..</value>
+  </data>
+  <data name="mainFrm_Menu_File_SqlExport" xml:space="preserve">
+    <value>SQL olarak dışa aktar</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo" xml:space="preserve">
+    <value>Dosya Bilgisi</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_ColumnCount" xml:space="preserve">
+    <value>Sütun sayısı</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Created" xml:space="preserve">
+    <value>Oluşturulma tarihi</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Encryption" xml:space="preserve">
+    <value>Şifreleme methodu</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Filename" xml:space="preserve">
+    <value>Dosya adı</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_LastAccess" xml:space="preserve">
+    <value>Son erişim zamanı</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_LastModify" xml:space="preserve">
+    <value>Son düzenleme zamanı</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Path" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_RowCount" xml:space="preserve">
+    <value>Satır sayısı</value>
+  </data>
+  <data name="mainFrm_Menu_FInfo_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="mainFrm_Menu_Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="mainFrm_Menu_Search_Find" xml:space="preserve">
+    <value>Bul</value>
+  </data>
+  <data name="mainFrm_Menu_Search_FindAndReplace" xml:space="preserve">
+    <value>Bul ve Değiştir</value>
+  </data>
+  <data name="mainFrm_Title" xml:space="preserve">
+    <value>Knight OnLine Tablo Editor :: PENTAGRAM, 2017, KODEVELOPERS SÜRÜMÜ</value>
+  </data>
+  <data name="mainFrm_User" xml:space="preserve">
+    <value>{0} olarak giriş yapıldı</value>
+  </data>
+  <data name="mainFrm_Version" xml:space="preserve">
+    <value>Versiyon : 1.3</value>
+  </data>
+  <data name="Message_CopyError" xml:space="preserve">
+    <value>Kopyalama işlemi yapılırken hata.\nKopyalanan satırların sütun sayısı veya veri türleri hedef tablo ile uyuşmuyor.\n{0} satırdan {1} tanesi kopyalandı.</value>
+  </data>
+  <data name="Message_DeleteConfirm" xml:space="preserve">
+    <value>Seçili olan bütün satır(lar)ı silmek istediğinizden emin misiniz? (Satır sayısı : {0})</value>
+  </data>
+  <data name="Message_DeleteSuccess" xml:space="preserve">
+    <value>{0} satır silindi.</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>Tamamlandı.</value>
+  </data>
+  <data name="Message_ExportComplete" xml:space="preserve">
+    <value>Dışa aktarma işlemi tamamlandı.</value>
+  </data>
+  <data name="Message_FileEncryptionError" xml:space="preserve">
+    <value>Şifreleme hatası : \n\n{0} isimli dosya açılamadı.\nDosya zarar görmüş, veya bilinmeyen bir şifreleme yöntemi/anahtar ile şifrelenmiş.</value>
+  </data>
+  <data name="Message_FileNotOpen" xml:space="preserve">
+    <value>Internal error : table file is not open</value>
+  </data>
+  <data name="Message_FileOpenError" xml:space="preserve">
+    <value>Dosya açma hatası :\nTablo {0} bulunamadı.</value>
+  </data>
+  <data name="Message_NMatchesReplaced" xml:space="preserve">
+    <value>Eşleşen {0} hücre güncellendi.</value>
+  </data>
+  <data name="Message_NoCheckedItems" xml:space="preserve">
+    <value>Hiçbir şey seçmediniz!</value>
+  </data>
+  <data name="Message_NoFileOpen" xml:space="preserve">
+    <value>Şuan hiçbir dosya açık değil.</value>
+  </data>
+  <data name="Message_NoMoreMatches" xml:space="preserve">
+    <value>Daha fazla eşleşme yok.</value>
+  </data>
+  <data name="Message_NoRowsSelected" xml:space="preserve">
+    <value>Hiç satır seçilmemiş.</value>
+  </data>
+  <data name="Message_NRowsAddSuccess" xml:space="preserve">
+    <value>{0} satır başarı ile eklendi.</value>
+  </data>
+  <data name="Message_NRowsCopied" xml:space="preserve">
+    <value>{0} satır kopyalandı.</value>
+  </data>
+  <data name="Message_PasteError" xml:space="preserve">
+    <value>Yapıştırma hatası.</value>
+  </data>
+  <data name="Message_PasteNoRows" xml:space="preserve">
+    <value>Yapıştırma işlemi başarısız.\nDaha önceden satır kopyalanmamış.</value>
+  </data>
+  <data name="Message_PleaseWait" xml:space="preserve">
+    <value>Lütfen bekleyin..</value>
+  </data>
+  <data name="Message_SaveConfirmChanges" xml:space="preserve">
+    <value>Bu tablo üzerinde değişiklikler yaptınız.\nBu değişiklikleri dosyaya işlemek(kaydetmek) istiyor musunuz?\n({0})</value>
+  </data>
+  <data name="Message_SaveSuccess" xml:space="preserve">
+    <value>Tablo başarıyla kaydedildi.</value>
+  </data>
+  <data name="Message_Searching" xml:space="preserve">
+    <value>Aranıyor..</value>
+  </data>
+  <data name="Message_SelectPageFirst" xml:space="preserve">
+    <value>Lütfen önce bir sekme seçin.</value>
+  </data>
+  <data name="Title_Information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+</root>
